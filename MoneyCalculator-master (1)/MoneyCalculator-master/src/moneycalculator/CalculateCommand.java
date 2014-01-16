@@ -21,6 +21,7 @@ public class CalculateCommand extends Command{
     public void execute() {
         moneyViewer.show(new Money(calculateAmount(), currencyDialog.getCurrency()));
     }
+    
 
     private double getExchangeRate() {
         /*String url = "Rates";
